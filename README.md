@@ -1,3 +1,7 @@
+### Description
+I am not the original creator of this code. The original repository was fork in order to update compatibility with 
+PHP 8.
+
 mandrill-api-php
 ================
 [![Build Status](https://secure.travis-ci.org/jlinn/mandrill-api-php.png?branch=master)](http://travis-ci.org/jlinn/mandrill-api-php)
@@ -12,7 +16,7 @@ Installation Using [Composer](http://getcomposer.org/)
 Assuming composer.phar is located in your project's root directory, run the following command:
 
 ```bash
-php composer.phar require jlinn/mandrill-api-php:~1.0
+composer require gcolon021/mandrill-api-php-8
 ```
 
 Usage
