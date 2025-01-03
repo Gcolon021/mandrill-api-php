@@ -1,5 +1,5 @@
 {
-  "name": "jlinn/mandrill-api-php-8",
+  "name": "george/mandrill-api-php-8",
   "type": "library",
   "description": "A PHP client library for Mandrill's REST API",
   "keywords": [
