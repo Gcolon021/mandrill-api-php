@@ -1,36 +1,43 @@
 {
-    "name": "jlinn/mandrill-api-php",
-    "type": "library",
-    "description": "A PHP client library for Mandrill's REST API",
-    "keywords": ["mandrill"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Joe Linn",
-            "homepage": "https://github.com/jlinn"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.2",
-        "guzzle/guzzle": "3.*"
+  "name": "jlinn/mandrill-api-php-8",
+  "type": "library",
+  "description": "A PHP client library for Mandrill's REST API",
+  "keywords": [
+    "mandrill"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joe Linn",
+      "homepage": "https://github.com/jlinn"
     },
-    "require-dev": {
-        "phpunit/phpunit": "3.7.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "Jlinn\\": "src/Jlinn/"
-        },
-        "psr-4": {
-            "Jlinn\\": "src/Jlinn/"
-        }
-    },
-    "autoload-dev": {
-        "psr-0": {
-            "Jlinn\\": "tests/"
-        },
-        "psr-4": {
-            "Jlinn\\": "tests/"
-        }
+    {
+      "name": "George Colon",
+      "homepage": "https://github.com/gcolon021"
     }
+  ],
+  "require": {
+    "php": ">=8",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Jlinn\\": "src/Jlinn/"
+    },
+    "psr-4": {
+      "Jlinn\\": "src/Jlinn/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "Jlinn\\": "tests/"
+    },
+    "psr-4": {
+      "Jlinn\\": "tests/"
+    }
+  }
 }
