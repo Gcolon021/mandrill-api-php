@@ -1,6 +1,5 @@
 ### Description
-I am not the original creator of this code. The original repository was fork in order to update compatibility with 
-PHP 8.
+I am not the original creator of this code. The original repository was forked in order to update compatibility with PHP 8.
 
 mandrill-api-php
 ================
