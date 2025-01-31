@@ -7,6 +7,9 @@
 
 namespace Jlinn\Mandrill;
 
+use ArrayIterator;
+use Traversable;
+
 abstract class Struct implements \IteratorAggregate{
     /**
      * Create a Struct from an associative array
@@ -44,11 +47,12 @@ abstract class Struct implements \IteratorAggregate{
      * (PHP 5 &gt;= 5.0.0)<br/>
      * Retrieve an external iterator
      * @link http://php.net/manual/en/iteratoraggregate.getiterator.php
-     * @return \Traversable An instance of an object implementing <b>Iterator</b> or
+     * @return Traversable|ArrayIterator An instance of an object implementing <b>Iterator</b> or
      * <b>Traversable</b>
      */
-    public function getIterator(){
-        return new \ArrayIterator($this->toArray());
+    public function getIterator(): \Traversable|\ArrayIterator
+    {
+        return new ArrayIterator($this->toArray());
     }
 
 
